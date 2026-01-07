@@ -5,24 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../assets/style/style.css">
     <title>Beispiel – Vom Feld auf den Teller</title>
 </head>
 
 <body>
 
     <nav>
-        <div class="logo">
-            <img src="assets/image.jpg">
-            <a href="#">Feld → Teller</a>
-        </div>
-        <div class="nav-links">
-            <a href="index.html">Start</a>
-            <a href="works.html">Stationen</a>
-            <a class="selected" href="single-work.html">Beispiel</a>
-            <a href="blog.html">Wissen</a>
-            <a href="about.html">Hintergrund</a>
-        </div>
+            <div class="nav-logo">
+                <img src="assets/images/image.jpg" alt="Logo">
+                <p class="nav-top-logo">Feld und Sulimann</p>
+            </div>
+            <ul>
+                <li>
+                    <a href="../index.html">Start</a>
+                </li>
+                <li>
+                    <a href="page1.html">Stationen</a>
+                </li>
+                <li>
+                    <a href="page3.html">Wissen</a>
+                </li>
+                <li>
+                    <a href="page4.html">Hintergrund</a>
+                </li>
+            </ul>
+            <button class="btn-primary" style="display: none;">Kontakt</button>
+            <button id="menuButton" onclick="openMenu()">
+                <i class='bx bx-menu'></i>
+            </button>
     </nav>
 
     <h1 class="page-title">Der Weg der Kartoffel</h1>
