@@ -324,7 +324,7 @@ nav ul a:hover {
 }
 
 .main .info button,
-.content .post-list .post-item .buttons button{
+.content .post-list .post-item .buttons button, .gitbutton{
     padding: 10px 30px;
     background: #303f9f;
     border: none;
