@@ -524,7 +524,7 @@ footer p{
 .content>p{
     width: 970px;
     font-size: 15px;
-    margin: 20px 0;
+    margin: 0 0 20px 0;
 }
 
 .content>img{
@@ -553,7 +553,7 @@ footer p{
 }
 
 .content .post-list .post-item .buttons{
-    margin-top: 30px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
